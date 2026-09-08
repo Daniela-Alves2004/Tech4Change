@@ -35,11 +35,24 @@
     const base = new URL("./" + pagesUrl(dir), window.location.href);
     const doc = new DOMParser().parseFromString(html, "text/html");
 
-    doc.querySelectorAll("img[src], a[href]").forEach((el) => {
-      const attr = el.hasAttribute("src") ? "src" : "href";
-      const value = el.getAttribute(attr);
-      if (!value || /^(https?:|mailto:|data:|#)/i.test(value)) return;
-      el.setAttribute(attr, new URL(value, base).href);
+    doc.querySelectorAll("img[src]").forEach((el) => {
+      const value = el.getAttribute("src");
+      if (!value || /^(https?:|data:)/i.test(value)) return;
+      el.setAttribute("src", new URL(value, base).href);
+    });
+
+    doc.querySelectorAll("a[href]").forEach((el) => {
+      const value = el.getAttribute("href");
+      if (!value) return;
+
+      if (/^(https?:|mailto:)/i.test(value)) {
+        el.setAttribute("target", "_blank");
+        el.setAttribute("rel", "noopener noreferrer");
+        return;
+      }
+
+      if (/^(data:|#)/i.test(value)) return;
+      el.setAttribute("href", new URL(value, base).href);
     });
 
     return doc.body.innerHTML;

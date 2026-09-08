@@ -49,6 +49,8 @@ Modelo visual que representa o processo de Design Thinking por meio de momentos 
 - **Divergir:** ampliar as possibilidades, coletando informações ou gerando diversas ideias.
 - **Convergir:** analisar, organizar e selecionar aquilo que é mais relevante.
 
+![Duplo Diamante — divergir e convergir](duplo%20diamante.jpeg)
+
 O processo é dividido em **4 fases**:
 
 1. **Descobrir**
@@ -67,6 +69,8 @@ Essas fases podem ser agrupadas em duas grandes etapas:
 
 - **Desenvolver → Entregar**
 - Depois de definir o problema, são geradas e testadas possíveis soluções.
+
+![Duplo Diamante — as 4 etapas](duplo%20diamante%20-%20etapas.jpeg)
 
 ---
 
@@ -99,6 +103,8 @@ Ferramenta utilizada para **garantir o alinhamento da equipe** sobre o que já s
 - **D — Dúvidas**
   - O que ainda não sabemos e precisamos descobrir.
 
+![Matriz CSD](matriz%20csd.jpeg)
+
 - Ferramenta:
   - Miro — [Matriz CSD](https://miro.com/app/board/uXjVHsejXO8=/)
 
@@ -122,6 +128,8 @@ Ferramenta utilizada para **garantir o alinhamento da equipe** sobre o que já s
   - Dificuldades.
   - Comportamentos.
 
+![Desk research e entrevistas de profundidade](desk%20research.jpeg)
+
 ### Ferramentas de apoio
 
 - Perplexity
@@ -129,6 +137,8 @@ Ferramenta utilizada para **garantir o alinhamento da equipe** sobre o que já s
 - Claude
 - Consensus
 - Elicit
+
+![Mapa mental de ferramentas de pesquisa](ferramentas.jpeg)
 
 ### Mapa de Empatia
 
@@ -141,6 +151,8 @@ Ferramenta utilizada para **garantir o alinhamento da equipe** sobre o que já s
   - O que **fala e faz**.
   - Suas **dores**.
   - Seus **ganhos/necessidades**.
+
+![Mapa de empatia](mapa%20de%20empatia.jpeg)
 
 - Template:
   - Miro — [Mapa de Empatia](https://miro.com/pt/modelos/mapeamento-de-empatia-servicenow/)
@@ -316,6 +328,8 @@ Representação de uma solução antes de sua implementação definitiva.
 - Lovable
 - Bolt.new
 - v0 — Vercel
+
+![Mapa mental de ferramentas de prototipação](ferramentas2.jpeg)
 
 ### Cases de sucesso
 
